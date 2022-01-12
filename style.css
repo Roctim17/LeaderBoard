@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 body{
     background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
 }
 #toparea{
     width: 870px;
@@ -40,4 +42,27 @@ hr{
 .blogimage img{
     width: 177px;
     height: 117px;
+}
+#bottom{
+    width: 870px;
+    height: 362px;
+    margin-top: 24px;
+    margin-left: 285px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 23px 36px 22.21px 28px;
+    font-family: 'Roboto', sans-serif;
+}
+.course{
+    display: flex;
+    justify-content: center;
+}
+.coursebox{
+    padding: 11px 17.42px 16.03px 11px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05)); 
+}
+.courseimage img{
+    width: 224px;
+    height: 104px;
 }
