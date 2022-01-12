@@ -1,0 +1,43 @@
+body{
+    background: #E5E5E5;
+}
+#toparea{
+    width: 870px;
+    height: 679;
+    margin-top: 130px;
+    margin-left: 285px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 33px 0 0 33px;
+}
+.topplayer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+}
+hr{
+    border: 1px solid #d1d1d1;
+    width: 807px;
+    margin: 30px 33px 30px 0;
+}
+.topblog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+    grid-gap: 16px;
+    margin-bottom: 26px;
+}
+.blogimage img{
+    width: 177px;
+    height: 117px;
+}
