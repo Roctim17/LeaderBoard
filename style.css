@@ -112,7 +112,7 @@ hr{
         grid-template-columns: repeat(1, 1fr);
     }
     hr{
-        width: 90%;
+        width: 80%;
     }
     .blog{
         display: block;
