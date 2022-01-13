@@ -3,6 +3,9 @@ body{
     background: #E5E5E5;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 #toparea{
     width: 870px;
     height: 679;
@@ -16,6 +19,9 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.topplayer h2{
+    font-size: 18px;
+}
 .player img{
     width: 56px;
     height: 56px;
@@ -24,7 +30,7 @@ body{
     display: flex;
     align-items: center;
     grid-gap: 16px;
-}
+    }
 hr{
     border: 1px solid #d1d1d1;
     width: 807px;
@@ -42,6 +48,20 @@ hr{
 .blogimage img{
     width: 177px;
     height: 117px;
+}
+.topblog h1{
+    font-size: 20px;
+    margin: 0;
+    line-height: 34px;
+}
+.bloginfo{
+    margin-top: 0;
+}
+.topblog p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    line-height: 24px;
 }
 #bottom{
     width: 870px;
@@ -61,8 +81,20 @@ hr{
     padding: 11px 17.42px 16.03px 11px;
     background-color: #FFFFFF;
     filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05)); 
+    width: 252.42px;
+    height: 269.79px;
+}
+.coursebox h2{
+    font-size: 20.03px;
+    line-height: 23.48px;
 }
 .courseimage img{
     width: 224px;
     height: 104px;
+}
+.courserdetail{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 30px;
 }
