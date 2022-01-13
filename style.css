@@ -126,6 +126,7 @@ hr{
     .course{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5px;
         text-align: center;
         padding: 10%;
     }
